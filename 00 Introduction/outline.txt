@@ -1,4 +1,4 @@
-Title: React.js Basics
+Title: React.js Basics | 00 Introduction
 -------------------------------------------
 
 #1 Introduction

@@ -22,7 +22,7 @@ function Person (props) {
 }
 
 ReactDOM.render(<Person name="Salar" age="27" />, document.getElementById('p1'));
-ReactDOM.render(<Person name="Mahsa" age="26" />, document.getElementById('p2'));
+ReactDOM.render(<Person name="Jane" age="25" />, document.getElementById('p2'));
 
 // PART#3
 function Person (props) {
@@ -38,7 +38,7 @@ function Person (props) {
     return (
       <div>
         <Person name='Salar' age='27' />
-        <Person name='Mahsa' age='26' />
+        <Person name='Jane' age='25' />
       </div>
     )
   }

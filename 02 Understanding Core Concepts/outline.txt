@@ -1,0 +1,127 @@
+Title: React.js Basics | 02 Understanding Core Concepts
+-------------------------------------------------------
+
+[Introduction]
+#1 Introduction
+#2 Basic Installation
+- index.html
+- like_button.js
+$ create-react-app react-app
+#3 Understanding folder structure
+> react-app
+- transpile = compile + translate
+[Components]
+#4. Components 101 (Basics) : Stateful, Smart or container.
+- Single Responsibility Principle
+- Reuseability
+- Flexibility
+#5. Understanding JSX & restrictions
+- React without JSX
+- restrictions
+#6. Creating a Class-based Component
+- Student.js
+#7. Creating a Functional Component
+- Student2.js
+#8. Working with Components & Re-Using Them
+#11. Outputting Dynamic Content
+[Props]
+#9. Working with Props
+- Student.js
+- StudentTitle.js
+-- .children
+#10. Understanding the children Prop
+#11 Component Naming
+#11. Understanding & Using State
+#12. Props Vs. State
+
+
+$ npx create-react-app todo-list
+OR
+$ npm install -g create-react-app
+$ create-react-app todo-list
+#14. Passing Method References Between Components
+[Handling Events]
+#16. Handling Events with Methods
+#17. To Which Events Can You Listen
+- onFocus
+- onBlur
+Form events:
+- onChange [*]
+- onSubmit
+- onclick
+[Exercise]
+- phonebook
+-- Phonebook.js
+-- newNumber.js
+
+
+[Hooks Basics]
+- React 16.8
+- Hooks: use + <featureName>
+#20. Introduce useState() Hook for State Manipulation
+> todos > App.js
+- change the state dependant on the old state using immutable way
+#21 Introduce useEffect() Hook
+> todos > TodoList.js
+- accepts one function
+- detects side effects in the component
+- first arg: arrow function
+- second arg: dependency array
+- component life cycle: create/mount/destroy
+- use return {} for clean up works (?example)
+- useeffect behavior:
+    // (1) without dependecy array: React specifies all of the variables as dependencies.
+    // (2) with empty dependecy array: call the function once the component creates.
+    // (3) with dependecy array: call the function when one of the dependencies changed.
+    // (4) with clean up
+    // (5) two different useEffect()
+
+
+[state]
+#15 one way data binding / #16 lifting state up
+REF: https://reactjs.org/docs/lifting-state-up.html
+
+> todo application
+>> NewTodo
+- onChange
+-?- display uppercase and lowercase of newTask synchronously
+- single source of truth(state)
+- one way data binding: connecting input to state
+- two way data binding: connecting input to state and connecting state to input
+-?- display number of task characters
+
+- Exercise:
+-?- display uppercase and lowercase of firstName synchronously
+-?- display number of firstName characters
+
+
+/here/
+[Recap]
+#11 Recap
+- push to github
+
+
+
+---------------------------------------------------------------------------------------------
+    [INFO]
+---------------------------------------------------------------------------------------------
+[project-1]
+> to-do-list
+data Modeling:
+    task: {
+        task: '',
+        description: '',
+        isCompleted: T/F
+    }
+Functionlities:
+- Number of completed tasks
+[project-2]
+> phonebook
+data Modeling:
+    phoneNumber: {
+        firstName: ''
+        lastName: '',
+        number: <number>,
+        isFavorite: T/F
+    }
+- Number of favorite tasks    

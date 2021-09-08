@@ -28,7 +28,7 @@ const arrays2 = ['e', 'd'];
 // let result = arrays.slice(1); // .slice(start, end) | returns a new array
 // console.log(result);
 
-// arrays.splice(0, 0, 'x ;)'); // doesn't return a new array. It modifies the original array.
+// arrays.splice(0, 0, 'x ;)'); // doesn't return a new array. It modifies the original array. // replace or modify some elements
 arrays.splice(0, 1, 'x ;)');
 console.log(arrays);
 

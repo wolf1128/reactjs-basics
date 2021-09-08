@@ -3,12 +3,25 @@ Title: React.js Basics | 01 Refreshing ES6
 
 #1 Introduction
 #2 Understanding let and const
+- variables.js
 #3 Functions
+- functions.js
 #4 Exports and Imports
+- Export & Import
+-- person.js
+-- fullName.js
+-- import.js
 #5 Understanding Classes
+- class.js
 #6 Classes, Properties and Methods
+- class2.js
 #7 The Spread and Rest operators
+- spreadRest.js
 #8 Destructuring (arrays,objects)
+- destructure.js
 #9 Reference and Primitive Types refresher
+- PrimAndRefTypes.js
 #10 Array/Object Methods
+- Arrays
+ - Objects
 #11 Recap

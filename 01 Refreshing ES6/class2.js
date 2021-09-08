@@ -20,7 +20,7 @@ class Human { // data modeling
       return 'Hi! My name is ' + this.firstName + ' ' + this.lastName;
     }
                 
-   // Getters & Setter           
+   // Getters & Setter (Accessors)           
     get fname() {
       return this.firstName;
     }             

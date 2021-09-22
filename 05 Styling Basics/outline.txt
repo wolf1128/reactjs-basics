@@ -1,9 +1,0 @@
-Title: React.js Basics | 04 Styling Basics
--------------------------------------------------------
-
-#0 Introduction
-#1 Inline Styles
-#2 CSS modules
-#3 Using Twitter Bootstrap framework
-#4 Using react-bootstrap package
-#?

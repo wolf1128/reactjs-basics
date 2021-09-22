@@ -1,6 +1,0 @@
-Title: React.js Basics | 03 List and Conditionals
--------------------------------------------------------
-
-# Conditional Rendering
-# Lists and Keys
-#? create todo list project / exercise: create phonebook project

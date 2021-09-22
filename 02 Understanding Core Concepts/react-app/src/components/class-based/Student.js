@@ -6,8 +6,8 @@ import StudentAddress from './StudentAddress';
 // Class-based Components
 // class Stundent extends React.Component {
 class Stundent extends Component {
-
-    state = { 
+    
+    state = {  
         address: {
             town: 'Berlin',
             street: 'Berlin Street',
